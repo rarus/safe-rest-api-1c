@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc68d3a1-e774-42e2-b6e0-11017946fa1d">
+  <name>кв_РасписаниеСокращенияЖурналовHTTPЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расписание сокращения журналов HTTP-запросов</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Сокращение журнала входящих запросов и журнала конфликтов производится синхронно в соответствии с настройкой сервиса &quot;Дней хранения записей журналов&quot;.</value>
+  </toolTip>
+</mdclass:CommonCommand>

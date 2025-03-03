@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47be3041-3841-4726-b235-646caa1983f3">
+  <producedTypes>
+    <selectionType typeId="21e15949-da5d-407d-af26-8bb1b5eeb81d" valueTypeId="5023c486-aeb5-4cfc-a9e6-385dc0e83542"/>
+    <listType typeId="72459a47-70e4-472d-a262-877c560f474a" valueTypeId="6948270d-1382-4381-965d-569110626657"/>
+    <managerType typeId="52fc2b30-066d-450d-9acb-88e4781c266a" valueTypeId="2b275993-d37d-48fc-b731-db298d53e83d"/>
+    <recordSetType typeId="da7c4fb3-44c0-4384-a024-a3fe6293fa81" valueTypeId="09bbf47f-9901-4a3d-b3de-2c561836bdd3"/>
+    <recordKeyType typeId="5819427f-25df-4b1e-a3b7-5b4bf1a0c83d" valueTypeId="b3641eac-b5b8-423d-88a8-7f69ea656f0b"/>
+    <recordType typeId="6fa1300a-afc4-4f39-be75-7e2e5adad11e" valueTypeId="744ede84-8c18-4ef5-84bb-b3338331d422"/>
+    <recordManagerType typeId="59b162b8-498b-42a8-8c41-69d9aef773f7" valueTypeId="88936d6a-e7d9-495f-98f0-554fa4950fe2"/>
+  </producedTypes>
+  <name>кв_ЖурналКонфликтовHTTPЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал конфликтов HTTP-запросов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.кв_ЖурналКонфликтовHTTPЗапросов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.кв_ЖурналКонфликтовHTTPЗапросов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Конфликт HTTP-запроса</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Конфликт HTTP-запроса</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Журнал конфликтов HTTP-запросов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Журнал конфликтов HTTP-запросов</value>
+  </extendedListPresentation>
+  <resources uuid="3b5381b9-c2cf-4528-a18a-9163aed10b86">
+    <name>ЗаблокированоПовторов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заблокировано повторов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>9999</value>
+    </maxValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="27b77b77-9339-49f5-a31e-acca4c3eec3c">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="7c2dcd10-c66f-443e-8012-d93e66799f5b">
+    <name>Ресурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="f4e5681a-f3da-43d4-864a-8b3c94b3905c">
+    <name>ДатаРазблокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата разблокировки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="ace52fbc-169f-4879-a473-0f1c81806967">
+    <name>Сервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.кв_Сервисы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="448a9817-c9ba-4a48-992a-b7c954bbeac4">
+    <name>ДатаБлокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата блокировки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f4729d43-3996-43a9-a52d-33aba420f152">
+    <name>КлючИдемпотентности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ идемпотентности</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="1fc98ed4-05d4-493e-b1ec-a21cb1702c43">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ce3ccc02-8421-42b3-b195-5834ee3ce7c5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="57f654f7-e898-4524-96d3-f2968eb25181">
+    <name>ЖурналКонфликтовHTTPЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал конфликтов HTTP-запросов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="6262b885-b608-43b1-9cdf-7d23b8df888d">
+    <name>ЗаблокированныеЗапросыСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заблокированные запросы</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.кв_Сервисы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

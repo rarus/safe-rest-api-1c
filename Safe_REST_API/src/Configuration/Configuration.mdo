@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00759763-9e49-4d54-a06d-376492585edd">
+  <name>КонтрольHTTPСервисов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль HTTP-сервисов. Редакция 1.0</value>
+  </synonym>
+  <comment>Контроль HTTP-сервисов. Редакция 1.0</comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="29cd78ea-4e9d-4031-826b-ecb2a63e4b9f"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="6ace04af-3dd2-4ac1-9e6c-6a8cd7e6af7b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="cc1143cd-55b2-46ce-9520-baf2b73774f8"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="7a113b14-75d6-44d8-a241-7670c72d2172"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="e4b19fd0-fe4d-49b5-96ac-5b3bb52d78e1"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="9519eaf2-04ad-4ba1-b661-e2d74f044982"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="a8d9dcbf-6396-492a-ab46-a776e7fb1430"/>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.кв_КонтрольHTTPСервисов</defaultRoles>
+  <defaultRoles>Role._ДемоДоступ</defaultRoles>
+  <vendor>ООО &quot;1С-Рарус&quot;</vendor>
+  <version>1.0.1.1</version>
+  <updateCatalogAddress>https://rarus.ru/downloads/4458/</updateCatalogAddress>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usedMobileApplicationFunctionalities/>
+  <mainSectionPicture/>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Контроль HTTP-сервисов. Редакция 1.0</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Инструмент предназначен для подробного логирования (журналирования) входящих HTTP-запросов. Также позволяет обнаруживать состояние гонки HTTP-запросов (race condition) и блокировать конфликтные HTTP-запросы.</value>
+  </detailedInformation>
+  <logo/>
+  <splash/>
+  <copyright>
+    <key>ru</key>
+    <value>Copyright (С) ООО &quot;1С-РАРУС&quot;, 2018-2025. Все права защищены</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://www.rarus.ru</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>https://rarus.ru/instruments/</value>
+  </configurationInformationAddress>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.15</compatibilityMode>
+  <languages uuid="d2a50baf-badb-43c0-9de5-64cc11d6ca8a">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <languages uuid="063f7700-7b29-437e-9afa-bab7cff7e3f7">
+    <name>Английский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Английский</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+  <subsystems>Subsystem.кв_КонтрольHTTPСервисов</subsystems>
+  <subsystems>Subsystem._Демо</subsystems>
+  <commonPictures>CommonPicture.кв_КонтрольHTTPСервисов</commonPictures>
+  <commonPictures>CommonPicture._Демо</commonPictures>
+  <roles>Role.кв_КонтрольHTTPСервисов</roles>
+  <roles>Role._ДемоДоступ</roles>
+  <commonModules>CommonModule.кв_HTTPСервисы</commonModules>
+  <commonModules>CommonModule.кв_ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.кв_ОбщегоНазначенияКлиентСервер</commonModules>
+  <httpServices>HTTPService._ДемоТестовыйСервис</httpServices>
+  <scheduledJobs>ScheduledJob.кв_РазблокированиеКонфликтовHTTPЗапросов</scheduledJobs>
+  <scheduledJobs>ScheduledJob.кв_СокращениеЖурналовHTTPЗапросов</scheduledJobs>
+  <commonCommands>CommonCommand.кв_РасписаниеРазблокированияКонфликтовHTTPЗапросов</commonCommands>
+  <commonCommands>CommonCommand.кв_РасписаниеСокращенияЖурналовHTTPЗапросов</commonCommands>
+  <constants>Constant.кв_ИспользоватьРегламентныеЗадания</constants>
+  <constants>Constant._ДемоПаузаПриЗаписиПартнера</constants>
+  <constants>Constant._ДемоИспользоватьПроверкуПартнераПередЗаписью</constants>
+  <catalogs>Catalog.кв_Сервисы</catalogs>
+  <catalogs>Catalog._ДемоПартнеры</catalogs>
+  <enums>Enum.кв_HTTPМетоды</enums>
+  <reports>Report.кв_СтатистикаВходящихHTTPЗапросов</reports>
+  <informationRegisters>InformationRegister.кв_ЖурналВходящихHTTPЗапросов</informationRegisters>
+  <informationRegisters>InformationRegister.кв_ЖурналКонфликтовHTTPЗапросов</informationRegisters>
+</mdclass:Configuration>

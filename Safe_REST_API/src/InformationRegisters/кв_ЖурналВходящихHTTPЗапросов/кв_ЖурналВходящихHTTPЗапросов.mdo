@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca5d1e54-bd56-4bc9-b6f8-5de86e42f034">
+  <producedTypes>
+    <selectionType typeId="8cf6f5d2-8c9e-4d59-9c2a-f0b22a4a2d8b" valueTypeId="f4a90e38-d6c5-4ae5-80cb-00fb69fc525a"/>
+    <listType typeId="5b15029b-8040-4e8f-b20f-406a4bb67e0a" valueTypeId="80c46b56-2d61-4776-8c44-2c3af38f22f8"/>
+    <managerType typeId="3ccb47fd-bdaa-4ac7-af5d-60a728d37736" valueTypeId="4af7acd9-8080-4198-8abb-de4a835787a1"/>
+    <recordSetType typeId="80f752d4-93b1-423f-bc92-e31c88416962" valueTypeId="3aacd99f-1b6e-46fd-98d2-41c05da5f8d8"/>
+    <recordKeyType typeId="08e61835-7d81-4403-93df-4a56e7c260b0" valueTypeId="df145859-a2a1-4d2c-8857-129d252929e5"/>
+    <recordType typeId="d466de1e-d164-4d6e-bb6d-f23af1221980" valueTypeId="463775e5-0e55-4a9e-aec6-210a9cae2318"/>
+    <recordManagerType typeId="9d818a7f-017f-4852-af76-1ad022f8b0e9" valueTypeId="5ac69bcd-552b-452d-8337-f803ebc4af45"/>
+  </producedTypes>
+  <name>кв_ЖурналВходящихHTTPЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал входящих HTTP-запросов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.кв_ЖурналВходящихHTTPЗапросов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.кв_ЖурналВходящихHTTPЗапросов.Form.ФормаСписка</defaultListForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Запись журнала входящих HTTP-запросов</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Запись журнала входящих HTTP-запросов</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Журнал входящих HTTP-запросов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Журнал входящих HTTP-запросов</value>
+  </extendedListPresentation>
+  <resources uuid="8382d758-4d4a-4457-b68e-9204209ab515">
+    <name>КлючИдемпотентности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ идемпотентности</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="bfb4c709-3705-466f-94d0-f6eb5d903f2e">
+    <name>Ресурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="2549af5e-bb87-45e1-944d-adf6ca84c6a7">
+    <name>Метод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод</value>
+    </synonym>
+    <type>
+      <types>EnumRef.кв_HTTPМетоды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6680fb46-bf3a-4eea-9d95-2792f0b99853">
+    <name>Запрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="0e993c36-1cf2-400a-b298-1c3aedf01edb">
+    <name>Ответ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="cd59896f-12e3-4814-ab5e-a460db78c18b">
+    <name>КодСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код состояния</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧЦ=3; ЧГ=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧЦ=3; ЧГ=0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="30178401-e916-48b9-b0cf-3eef119baef5">
+    <name>ВремяНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="05aead13-7a18-41c3-be3d-9ae0a6ea9880">
+    <name>Длительность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>5</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e6800652-7dc7-4225-be2e-b25ed303762e">
+    <name>РазмерЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер запроса</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4e20c5ac-250a-44a3-a5f8-032012c821f8">
+    <name>РазмерОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер ответа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="25f79b37-11f7-4fe5-84b0-ac902d639f93">
+    <name>ХешЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш запроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="360d18c7-c63a-41e2-b9b3-d71b7e26861d">
+    <name>ДатаЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата запроса</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="41d6ba16-70cf-4c14-8dfc-04e70bdb585f">
+    <name>Сервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.кв_Сервисы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="73955d29-d45e-4ece-b172-61e85ebe6e01">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="093ab557-d61c-4197-b809-f17b1713b6d8">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="92671255-6f45-4b69-9428-0f724c118e14">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="34881956-6506-4e53-a407-97b448af6c2b">
+    <name>НастройкиОбслуживания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки обслуживания журналов HTTP-запросов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="4eaafa38-64c6-4a2f-b1e4-8615e84c272a">
+    <name>ЖурналВходящихHTTPЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал входящих запросов HTTP-сервисов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="c2296872-669d-4e88-b346-d204852d53ea">
+    <name>ВходящиеЗапросы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящие запросы</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.кв_Сервисы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="84ebd928-bd90-4ab5-9759-8042aa149701">
+    <name>НастройкиОбслуживанияЖурналовHTTPЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки обслуживания журналов HTTP-запросов</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

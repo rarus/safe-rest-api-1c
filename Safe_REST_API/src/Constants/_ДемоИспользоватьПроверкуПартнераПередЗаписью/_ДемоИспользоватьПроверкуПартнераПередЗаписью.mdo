@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df778bd9-01ad-46ad-acf0-92716939077b">
+  <producedTypes>
+    <managerType typeId="c56afb50-da77-4684-8c17-542be7b8e7fa" valueTypeId="60e2d654-d0cb-4919-8ee7-2320b3c993af"/>
+    <valueManagerType typeId="c45ae6ed-df7b-47a1-9980-7b928a6ca167" valueTypeId="0f8543d9-108a-4343-9fc4-55366656f450"/>
+    <valueKeyType typeId="fd6e0e26-1852-4d9a-aac6-0860d17d75c0" valueTypeId="fbba3696-ab3e-4fba-9497-e7eaf40a55aa"/>
+  </producedTypes>
+  <name>_ДемоИспользоватьПроверкуПартнераПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать проверку партнера перед записью</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

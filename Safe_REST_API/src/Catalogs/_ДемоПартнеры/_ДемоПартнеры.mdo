@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30d4f53c-73c6-40aa-aeb5-d9c6a83ceaa9">
+  <producedTypes>
+    <objectType typeId="a05b65a5-7a89-45bf-8a6e-834fbd710812" valueTypeId="0bc20486-6c7b-4566-b2b9-a8af294208dc"/>
+    <refType typeId="d9e964d7-206d-43c2-b381-7b288d2ffd67" valueTypeId="08c166fd-6d34-4500-a28b-57ed98d6fc4f"/>
+    <selectionType typeId="aa98e2c1-9c1c-44f3-971a-9fa905279df6" valueTypeId="ab38d856-49c6-4ba0-8d48-ff6d87585555"/>
+    <listType typeId="fe89bce5-b33b-4e20-a7ab-089abda75509" valueTypeId="8d10b988-0c00-4fda-9dfb-04d50fa21887"/>
+    <managerType typeId="7ad2a511-cd81-4f27-9f0a-1bbe64b46a3b" valueTypeId="16493755-84b6-4a91-9f53-f2cd3590434c"/>
+  </producedTypes>
+  <name>_ДемоПартнеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Партнеры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog._ДемоПартнеры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Партнер</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Партнер</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Партнеры</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Партнеры</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog._ДемоПартнеры.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog._ДемоПартнеры.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="baac48e4-dd4d-4c73-b36b-8c4c35d97fad">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value>            </value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3d184851-51fe-4658-8d78-fd1ed9ba39be">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="31324382-70c7-4c86-ae39-cc75cbd01f15">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

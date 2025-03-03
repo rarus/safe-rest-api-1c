@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Constant.кв_ИспользоватьРегламентныеЗадания.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonCommand.кв_РасписаниеРазблокированияКонфликтовHTTPЗапросов</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonCommand.кв_РасписаниеСокращенияЖурналовHTTPЗапросов</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.кв_Сервисы.Command.Сервисы</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+</cmi:CommandInterface>

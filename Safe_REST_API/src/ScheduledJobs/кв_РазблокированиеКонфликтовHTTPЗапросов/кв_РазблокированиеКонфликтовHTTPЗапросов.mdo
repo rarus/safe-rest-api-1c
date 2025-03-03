@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2b9ddd7-b619-4d9f-b0cf-de2e952bdaa2">
+  <name>кв_РазблокированиеКонфликтовHTTPЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разблокирование конфликтов HTTP-запросов</value>
+  </synonym>
+  <comment>Разблокирование первичных запросов, по которым заблокированы повторные запросы из-за ошибки 409 Conflict</comment>
+  <methodName>CommonModule.кв_HTTPСервисы.ВыполнитьРазблокированиеКонфликтовЗапросов</methodName>
+  <description>Разблокирование конфликтов HTTP-запросов</description>
+  <key>кв_РазблокированиеКонфликтовHTTPЗапросов</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

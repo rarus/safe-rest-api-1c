@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eac623c4-d0b2-4f16-aa56-54c2792410a0">
+  <name>кв_СокращениеЖурналовHTTPЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сокращение журналов входящих HTTP-запросов и конфликтов HTTP-запросов</value>
+  </synonym>
+  <methodName>CommonModule.кв_HTTPСервисы.ВыполнитьСокращениеЖурналовHTTPЗапросов</methodName>
+  <description>Сокращение журналов входящих HTTP-запросов и конфликтов HTTP-запросов</description>
+  <key>кв_СокращениеЖурналовHTTPЗапросов</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

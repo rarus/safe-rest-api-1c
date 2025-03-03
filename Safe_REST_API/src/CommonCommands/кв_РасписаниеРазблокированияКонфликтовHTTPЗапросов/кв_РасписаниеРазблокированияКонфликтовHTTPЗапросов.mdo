@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="923aa9ab-92a4-4a7c-a651-31bc6e078fda">
+  <name>кв_РасписаниеРазблокированияКонфликтовHTTPЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расписание разблокирования конфликтов HTTP-запросов</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>На снятие блокировки с ресурса оказывают влияние такие настройки сервиса как: &quot;Повторов до разблокировки конфликтов&quot;, &quot;Порог разблокировки конфликтов&quot;, &quot;Период проверки порога разблокировки&quot; и &quot;Период гарантированной разблокировки&quot;.</value>
+  </toolTip>
+</mdclass:CommonCommand>

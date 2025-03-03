@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48a36eb6-ac19-4860-b75a-eff083daa501">
+  <producedTypes>
+    <objectType typeId="0f7640b7-f329-4602-8152-cd4678e64841" valueTypeId="451d3011-689e-4f20-b0af-df5b98dfdf06"/>
+    <managerType typeId="1afbd4f7-0378-4ae1-bd02-181f99ae8e7e" valueTypeId="69725f3f-e6c8-46fb-b742-3bcce1bb8318"/>
+  </producedTypes>
+  <name>кв_СтатистикаВходящихHTTPЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика входящих HTTP-запросов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.кв_СтатистикаВходящихHTTPЗапросов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="af25c4cd-77bc-4d19-afcf-ad3fbf7e371b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
