@@ -54,7 +54,6 @@
       <types>String</types>
       <stringQualifiers>
         <length>12</length>
-        <fixed>true</fixed>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
