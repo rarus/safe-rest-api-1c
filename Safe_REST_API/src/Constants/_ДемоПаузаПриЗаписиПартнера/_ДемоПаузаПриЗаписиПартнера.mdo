@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35e70eb7-bb57-44e7-b79c-874fcf70eb96">
+  <producedTypes>
+    <managerType typeId="af00adb3-40fa-4154-9375-e9eff28f3c1f" valueTypeId="9ad22562-2659-4563-83f7-4950b7369a81"/>
+    <valueManagerType typeId="815582bf-9412-4a38-b011-7f9e1bdc4aae" valueTypeId="341a55dc-9a6a-470f-a25b-96c169ea5651"/>
+    <valueKeyType typeId="f0a54322-0718-4b3f-aa04-7fd16386dbb4" valueTypeId="b2bd728f-8a6f-4343-8843-494fb606da80"/>
+  </producedTypes>
+  <name>_ДемоПаузаПриЗаписиПартнера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пауза при записи партнера (сек.)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff0c5f41-4586-41c6-83e4-ef05cf07f4a2">
+  <name>кв_КонтрольHTTPСервисов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль HTTP-сервисов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.кв_КонтрольHTTPСервисов</picture>
+  </picture>
+  <content>Role.кв_КонтрольHTTPСервисов</content>
+  <content>InformationRegister.кв_ЖурналВходящихHTTPЗапросов</content>
+  <content>Catalog.кв_Сервисы</content>
+  <content>CommonModule.кв_ОбщегоНазначения</content>
+  <content>CommonModule.кв_HTTPСервисы</content>
+  <content>InformationRegister.кв_ЖурналКонфликтовHTTPЗапросов</content>
+  <content>CommonModule.кв_ОбщегоНазначенияКлиентСервер</content>
+  <content>ScheduledJob.кв_РазблокированиеКонфликтовHTTPЗапросов</content>
+  <content>ScheduledJob.кв_СокращениеЖурналовHTTPЗапросов</content>
+  <content>Constant.кв_ИспользоватьРегламентныеЗадания</content>
+  <content>Enum.кв_HTTPМетоды</content>
+  <content>Report.кв_СтатистикаВходящихHTTPЗапросов</content>
+  <content>CommonCommand.кв_РасписаниеРазблокированияКонфликтовHTTPЗапросов</content>
+  <content>CommonCommand.кв_РасписаниеСокращенияЖурналовHTTPЗапросов</content>
+  <content>CommonPicture.кв_КонтрольHTTPСервисов</content>
+</mdclass:Subsystem>

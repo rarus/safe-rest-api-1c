@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b353a669-5c06-48c8-8543-c1fb8250d3dc">
+  <producedTypes>
+    <refType typeId="f0be071b-82c8-45b9-88c5-f3bd041c4810" valueTypeId="0ce96a4c-1c9a-4e59-8a34-077c94e41e93"/>
+    <listType typeId="f45ad0a1-c885-482a-941e-fc7c6ccc2680" valueTypeId="fd15c5d6-7109-4d64-b338-b15c3b22e2e3"/>
+    <managerType typeId="cf5c17fd-211f-417e-b49b-cd760257f459" valueTypeId="499f096b-9268-4671-a926-8bc36f14793b"/>
+  </producedTypes>
+  <name>кв_HTTPМетоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>HTTP-методы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="194b0541-9096-4dfb-a8b0-37a4c339f101">
+    <name>POST</name>
+    <synonym>
+      <key>ru</key>
+      <value>POST</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a6dba588-6eaa-48f8-97f3-1b617430f169">
+    <name>PUT</name>
+    <synonym>
+      <key>ru</key>
+      <value>PUT</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70dffc2a-0948-4ddb-9424-051a8e0fa454">
+    <name>PATCH</name>
+    <synonym>
+      <key>ru</key>
+      <value>PATCH</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="915d1def-2c8c-4941-bce3-7cda84dc45f7">
+    <name>DELETE</name>
+    <synonym>
+      <key>ru</key>
+      <value>DELETE</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0791d7f3-dba1-45e6-83f2-8cfb4dff9761">
+    <name>GET</name>
+    <synonym>
+      <key>ru</key>
+      <value>GET</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a4444b99-5912-4497-b815-073b98bb7bb1">
+    <name>CONNECT</name>
+    <synonym>
+      <key>ru</key>
+      <value>CONNECT</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="35f05601-c043-4467-9986-bd60ae282532">
+    <name>COPY</name>
+    <synonym>
+      <key>ru</key>
+      <value>COPY</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="45b83b0e-0b0b-4ba8-8ebc-e4ecc5859532">
+    <name>HEAD</name>
+    <synonym>
+      <key>ru</key>
+      <value>HEAD</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f0264444-95d2-4031-9b1f-8651afaddca9">
+    <name>LOCK</name>
+    <synonym>
+      <key>ru</key>
+      <value>LOCK</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e89ded6b-0b78-4cc4-85f4-a88794affd64">
+    <name>MERGE</name>
+    <synonym>
+      <key>ru</key>
+      <value>MERGE</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="12944b4a-4a8a-4ced-8328-db89ded18ecc">
+    <name>MKCOL</name>
+    <synonym>
+      <key>ru</key>
+      <value>MKCOL</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e050e95f-3668-44d5-9b71-5a6993567275">
+    <name>MOVE</name>
+    <synonym>
+      <key>ru</key>
+      <value>MOVE</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00049f43-21cf-47e6-8a77-4f4d6f743662">
+    <name>OPTIONS</name>
+    <synonym>
+      <key>ru</key>
+      <value>OPTIONS</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8f384465-2d23-4316-afce-ef615bea0b6b">
+    <name>PROPFIND</name>
+    <synonym>
+      <key>ru</key>
+      <value>PROPFIND</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d230db12-9878-4c44-ab63-30a1232a3d36">
+    <name>PROPPATCH</name>
+    <synonym>
+      <key>ru</key>
+      <value>PROPPATCH</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f84051e7-98b4-490c-8248-0b8d33bb2035">
+    <name>TRACE</name>
+    <synonym>
+      <key>ru</key>
+      <value>TRACE</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e184b96-6d48-4c13-aee7-ef59a7f993ee">
+    <name>UNLOCK</name>
+    <synonym>
+      <key>ru</key>
+      <value>UNLOCK</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
