@@ -55,9 +55,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <indexing>Index</indexing>
   </resources>
   <resources uuid="bfb4c709-3705-466f-94d0-f6eb5d903f2e">
@@ -75,9 +73,7 @@
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <resources uuid="2549af5e-bb87-45e1-944d-adf6ca84c6a7">
     <name>Метод</name>
@@ -108,9 +104,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <resources uuid="0e993c36-1cf2-400a-b298-1c3aedf01edb">
     <name>Ответ</name>
@@ -126,9 +120,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <resources uuid="cd59896f-12e3-4814-ab5e-a460db78c18b">
     <name>КодСостояния</name>
@@ -156,6 +148,37 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7fd84fdf-0b80-4017-9cdc-eb02a2e0ba5f">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.кв_ШаблоныСервисов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b9643618-0b25-424a-a09d-cef161687250">
+    <name>ПараметрыЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры запроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <attributes uuid="30178401-e916-48b9-b0cf-3eef119baef5">
     <name>ВремяНачала</name>
@@ -245,9 +268,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <dimensions uuid="360d18c7-c63a-41e2-b9b3-d71b7e26861d">
     <name>ДатаЗапроса</name>
@@ -306,9 +327,7 @@
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="093ab557-d61c-4197-b809-f17b1713b6d8">
@@ -345,7 +364,6 @@
       <value>Журнал входящих запросов HTTP-сервисов</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
     <representation>Auto</representation>
   </commands>
   <commands uuid="c2296872-669d-4e88-b346-d204852d53ea">
@@ -367,7 +385,6 @@
       <value>Настройки обслуживания журналов HTTP-запросов</value>
     </synonym>
     <group>ActionsPanelTools</group>
-    <commandParameterType/>
     <representation>Auto</representation>
   </commands>
 </mdclass:InformationRegister>

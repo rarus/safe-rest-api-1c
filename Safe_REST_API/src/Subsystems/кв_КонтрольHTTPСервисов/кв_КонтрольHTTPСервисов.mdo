@@ -30,4 +30,7 @@
   <content>CommonCommand.кв_РасписаниеРазблокированияКонфликтовHTTPЗапросов</content>
   <content>CommonCommand.кв_РасписаниеСокращенияЖурналовHTTPЗапросов</content>
   <content>CommonPicture.кв_КонтрольHTTPСервисов</content>
+  <content>Catalog.кв_ШаблоныСервисов</content>
+  <content>Enum.кв_СпособыЛогирования</content>
+  <content>CommonPicture.кв_ПиктограммыЭлементов</content>
 </mdclass:Subsystem>

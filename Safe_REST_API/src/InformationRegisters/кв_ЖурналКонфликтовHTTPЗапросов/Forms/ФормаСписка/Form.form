@@ -561,6 +561,7 @@
         <name>СписокСократитьЖурнал</name>
         <id>59</id>
         <visible>true</visible>
+        <enabled>false</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>

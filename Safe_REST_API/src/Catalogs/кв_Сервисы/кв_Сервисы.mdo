@@ -163,9 +163,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -422,6 +420,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="a8f7b020-8ebe-4e64-8a7a-3140d4cd6db3">
+    <name>ИспользоватьНастройкиЛогированияПоШаблонам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать настройки логирования по шаблонам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="2318ee80-1c39-4a5c-ba24-383e31f49c23">
     <name>ФормаЭлемента</name>
     <synonym>
@@ -456,7 +469,6 @@
       <value>Сервисы</value>
     </synonym>
     <group>ActionsPanelTools</group>
-    <commandParameterType/>
     <representation>Auto</representation>
   </commands>
 </mdclass:Catalog>

@@ -87,6 +87,42 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
+      <name>Шаблон</name>
+      <id>92</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Шаблон</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ШаблонРасширеннаяПодсказка</name>
+        <id>94</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ШаблонКонтекстноеМеню</name>
+        <id>93</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
       <name>Сервис</name>
       <id>19</id>
       <visible>true</visible>
@@ -151,6 +187,42 @@
       </contextMenu>
       <type>LabelField</type>
       <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ПараметрыЗапроса</name>
+      <id>95</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ПараметрыЗапроса</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ПараметрыЗапросаРасширеннаяПодсказка</name>
+        <id>97</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПараметрыЗапросаКонтекстноеМеню</name>
+        <id>96</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -632,6 +704,42 @@
       <userSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</userSettingsGroup>
     </extInfo>
   </items>
+  <items xsi:type="form:Decoration">
+    <name>Подсказка</name>
+    <id>98</id>
+    <title>
+      <key>ru</key>
+      <value>Если не заполнен код ответа, то в процессе выполнения запроса возникла исключительная ситация.</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ПодсказкаРасширеннаяПодсказка</name>
+      <id>100</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ПодсказкаКонтекстноеМеню</name>
+      <id>99</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>Label</type>
+    <autoMaxHeight>true</autoMaxHeight>
+    <textColor xsi:type="core:ColorRef">
+      <color>Style.AccentColor</color>
+    </textColor>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+    </extInfo>
+  </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -897,6 +1005,7 @@
         <name>СписокСократитьЖурнал</name>
         <id>76</id>
         <visible>true</visible>
+        <enabled>false</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>

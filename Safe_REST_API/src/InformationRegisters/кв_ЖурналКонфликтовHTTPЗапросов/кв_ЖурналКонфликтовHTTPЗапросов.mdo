@@ -115,9 +115,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="7c2dcd10-c66f-443e-8012-d93e66799f5b">
     <name>Ресурс</name>
@@ -135,9 +133,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="f4e5681a-f3da-43d4-864a-8b3c94b3905c">
     <name>ДатаРазблокировки</name>
@@ -215,9 +211,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="1fc98ed4-05d4-493e-b1ec-a21cb1702c43">
@@ -245,7 +239,6 @@
       <value>Журнал конфликтов HTTP-запросов</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
     <representation>Auto</representation>
   </commands>
   <commands uuid="6262b885-b608-43b1-9cdf-7d23b8df888d">
