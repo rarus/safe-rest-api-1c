@@ -76,6 +76,7 @@
   <subsystems>Subsystem.кв_КонтрольHTTPСервисов</subsystems>
   <subsystems>Subsystem._Демо</subsystems>
   <commonPictures>CommonPicture.кв_КонтрольHTTPСервисов</commonPictures>
+  <commonPictures>CommonPicture.кв_ПиктограммыЭлементов</commonPictures>
   <commonPictures>CommonPicture._Демо</commonPictures>
   <roles>Role.кв_КонтрольHTTPСервисов</roles>
   <roles>Role._ДемоДоступ</roles>
@@ -91,8 +92,10 @@
   <constants>Constant._ДемоПаузаПриЗаписиПартнера</constants>
   <constants>Constant._ДемоИспользоватьПроверкуПартнераПередЗаписью</constants>
   <catalogs>Catalog.кв_Сервисы</catalogs>
+  <catalogs>Catalog.кв_ШаблоныСервисов</catalogs>
   <catalogs>Catalog._ДемоПартнеры</catalogs>
   <enums>Enum.кв_HTTPМетоды</enums>
+  <enums>Enum.кв_СпособыЛогирования</enums>
   <reports>Report.кв_СтатистикаВходящихHTTPЗапросов</reports>
   <informationRegisters>InformationRegister.кв_ЖурналВходящихHTTPЗапросов</informationRegisters>
   <informationRegisters>InformationRegister.кв_ЖурналКонфликтовHTTPЗапросов</informationRegisters>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92849bb7-3725-4e79-b4e6-9616c0e6c04d">
+  <producedTypes>
+    <refType typeId="3afc82ce-1c97-4797-9a90-3559951a416c" valueTypeId="79162700-5170-4366-acb2-8b7dab130944"/>
+    <listType typeId="740e7595-51c7-4048-9bb0-831e1a64a949" valueTypeId="61cbeee6-a03d-4607-a2d4-6ccae778f22b"/>
+    <managerType typeId="54687889-419d-44f0-9ef0-c34d9765dbda" valueTypeId="c7237e9d-62e0-4ebb-a849-6cde16420e95"/>
+  </producedTypes>
+  <name>кв_СпособыЛогирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы логирования</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="15aeb40d-b997-4f14-a70d-95ee2439f2f8">
+    <name>НеЛогировать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не логировать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b391f9ab-bfd0-4bf1-abf7-0b7efa4a687c">
+    <name>ТолькоОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только ошибки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23bf09e9-943c-4cd5-9ce3-493712fd52e6">
+    <name>ПолноеЛогирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное логирование</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

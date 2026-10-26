@@ -6,7 +6,6 @@
     <value>Расписание сокращения журналов HTTP-запросов</value>
   </synonym>
   <group>ActionsPanelTools</group>
-  <commandParameterType/>
   <representation>Auto</representation>
   <toolTip>
     <key>ru</key>
